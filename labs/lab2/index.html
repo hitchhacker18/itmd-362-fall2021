@@ -9,16 +9,24 @@
 </head>
 <body>
   <header>
-    <h1>Please Enter the following information:</h1>
+    <h1>Please enter the following information below:</h1>
   </header>
 <form action="./action_page.php" method="post" target="_blank" autocomplete="on">
-  <label for="email">Email:</label>
-  <input type="text" id="email" name="email">
-  <label for="phnumber">Phone number:</label>
-  <input type="tel" id="phnumber" name="phnumber" placeholder="123-456-7890">
-  <label for="birthday">Date of Birth:</label>
-  <input type="date" id="birthday" name="birthday">
+  <div class="items">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+  </div>
+  <div class="items">
+    <label for="phnumber">Phone number:</label>
+    <input type="tel" id="phnumber" name="phnumber" placeholder="123-456-7890">
+  </div>
+  <div class="items">
+    <label for="birthday">Date of Birth:</label>
+    <input type="date" id="birthday" name="birthday">
+  </div>
+  <div>
   <input type="submit" value="Submit">
+  </div>
 </form>
 
 </body>

@@ -1,5 +1,11 @@
+body {
+    text-align: center;
+    background-color: lightgray;
+}
+
 h1 {
   font-weight: bold;
+  font-size: 30px;
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -9,4 +15,15 @@ form {
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+  display: inline-block;
+  float: none;
 }
+
+.items {
+  margin-bottom: 20px;
+}
+
+section {
+  display: block;
+}
+  
